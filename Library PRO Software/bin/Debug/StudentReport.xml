@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AdmissionNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="EnrollmentNo" type="xs:string" minOccurs="0" />
+              <xs:element name="StudentName" type="xs:string" minOccurs="0" />
+              <xs:element name="FatherName" type="xs:string" minOccurs="0" />
+              <xs:element name="MotherName" type="xs:string" minOccurs="0" />
+              <xs:element name="ParentContact" type="xs:string" minOccurs="0" />
+              <xs:element name="PermanentAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="ContactNo" type="xs:string" minOccurs="0" />
+              <xs:element name="DOB" type="xs:string" minOccurs="0" />
+              <xs:element name="Gender" type="xs:string" minOccurs="0" />
+              <xs:element name="AdmissionDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Religion" type="xs:string" minOccurs="0" />
+              <xs:element name="Nationality" type="xs:string" minOccurs="0" />
+              <xs:element name="Session" type="xs:string" minOccurs="0" />
+              <xs:element name="SchoolName" type="xs:string" minOccurs="0" />
+              <xs:element name="Photo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ClassName" type="xs:string" minOccurs="0" />
+              <xs:element name="SectionName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

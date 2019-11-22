@@ -1,0 +1,455 @@
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\bin\Debug\School Software.exe
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\bin\Debug\School Software.pdb
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School Software.csprojResolveAssemblyReference.cache
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmSessionEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.Properties.Resources.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School Software.csproj.GenerateResource.Cache
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School Software.exe
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School Software.pdb
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolType.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmClassTypes.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmClassEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmSectionEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmFeeTypes.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesList.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmClassSection.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeDesignations.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeDepartment.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeList.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmLogin.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmSplash.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmSms.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmUserRegistrations.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmMainmenu.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmLogs.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmUserGrants.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmStudentRegistration.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmStudentDocuments.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmStudentList.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmLocationEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmBusInstallments.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmHostelEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmHostelInstallment.resources
+C:\Users\Vaibhav-PC\documents\visual studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmStudentDiscount.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmStaffDiscount.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmBusEntry.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStudents.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeesPaymentStudent.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStudentList.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeePaymentListStudent.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmHostelersStudent.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmHostelerStudentList.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmHostelFeesPayment.resources
+C:\Users\Vaibhav-PC\Documents\Visual Studio 2010\Projects\School Software\School Software\obj\x86\Debug\School_Software.frmHostelFeePaymentList.resources
+D:\School Software\School Software\bin\Debug\School Software.exe.config
+D:\School Software\School Software\bin\Debug\School Software.exe
+D:\School Software\School Software\bin\Debug\School Software.pdb
+D:\School Software\School Software\bin\Debug\BarcodeLib.dll
+D:\School Software\School Software\bin\Debug\GenCode128.dll
+D:\School Software\School Software\bin\Debug\WebCam_Capture.dll
+D:\School Software\School Software\bin\Debug\webs.dll
+D:\School Software\School Software\bin\Debug\BarcodeLib.pdb
+D:\School Software\School Software\bin\Debug\GenCode128.pdb
+D:\School Software\School Software\bin\Debug\webs.pdb
+D:\School Software\School Software\bin\Debug\webs.xml
+D:\School Software\School Software\obj\x86\Debug\School Software.csprojResolveAssemblyReference.cache
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmAttendanceList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBarcodeGeneration.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssue.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStudent.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStaff.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookReservations.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookReturn.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookReturnListStudent.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksCategory.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksClassifications.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksFineSetting.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationReport.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationsList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReturnListStaff.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookSuppliersEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAdvancePayment.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAdvancePaymentList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAttendanceEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeePaymentListStudent.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeePaymentStaff.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeesPaymentListStaff.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeesPaymentStudent.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStaff.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStaffList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStudentList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStudents.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBusInstallments.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmClassEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAttendanceRecords.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeSalaryPayment.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeSalaryPaymentList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmExamEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmExamResultsEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmExamSchedule.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmExamScheduleList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmFeesDueList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmGradingLevels.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazineBillingList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazines.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesBilling.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmRandomBarcodeGenerator.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmReport.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesPayment.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmClassSection.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeDepartment.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeDesignations.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmFeeTypes.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmHostelEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmHostelersStudent.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmHostelerStudentList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmHostelFeePaymentList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmHostelFeesPayment.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmHostelInstallment.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmLocationEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmLogin.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmLogs.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmMainmenu.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesPaymentList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSectionEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmClassTypes.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolType.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSessionEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSms.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSplash.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmStaffDiscount.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmStudentAttendance.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmStudentClassPromotion.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmStudentDiscount.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmStudentDocuments.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmStudentList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmStudentRegistration.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBooksSubCategory.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookSupplierList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmExamResultList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSubjectList.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmSubjectsEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmUserGrants.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmUserRegistrations.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmWebCam.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.Properties.Resources.resources
+D:\School Software\School Software\obj\x86\Debug\School Software.csproj.GenerateResource.Cache
+D:\School Software\School Software\obj\x86\Debug\School Software.exe
+D:\School Software\School Software\obj\x86\Debug\School Software.pdb
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueReportStudent.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueStaffReport.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmStudent_Result.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmFinalMarksEntry.resources
+D:\School Software\School Software\obj\x86\Debug\School_Software.frmFinalMarksList.resources
+C:\02.10.2016\School Software\School Software\bin\Debug\School Software.exe.config
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School Software.exe
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School Software.pdb
+C:\02.10.2016\School Software\School Software\bin\Debug\School Software.exe
+C:\02.10.2016\School Software\School Software\bin\Debug\School Software.pdb
+C:\02.10.2016\School Software\School Software\bin\Debug\BarcodeLib.dll
+C:\02.10.2016\School Software\School Software\bin\Debug\GenCode128.dll
+C:\02.10.2016\School Software\School Software\bin\Debug\WebCam_Capture.dll
+C:\02.10.2016\School Software\School Software\bin\Debug\webs.dll
+C:\02.10.2016\School Software\School Software\bin\Debug\BarcodeLib.pdb
+C:\02.10.2016\School Software\School Software\bin\Debug\GenCode128.pdb
+C:\02.10.2016\School Software\School Software\bin\Debug\webs.pdb
+C:\02.10.2016\School Software\School Software\bin\Debug\webs.xml
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School Software.csprojResolveAssemblyReference.cache
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmAttendanceList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBarcodeGeneration.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssue.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStudent.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStaff.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueReportStudent.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueStaffReport.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookReservations.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookReturn.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookReturnListStudent.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksCategory.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksClassifications.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksFineSetting.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationReport.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationsList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReturnListStaff.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookSuppliersEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAdvancePayment.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAdvancePaymentList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAttendanceEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeePaymentListStudent.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeePaymentStaff.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeesPaymentListStaff.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeesPaymentStudent.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStaff.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStaffList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStudentList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStudents.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusInstallments.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmClassEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAttendanceRecords.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeSalaryPayment.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeSalaryPaymentList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamResultsEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamSchedule.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamScheduleList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmFeesDueList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmFinalMarksEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmFinalMarksList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmGradingLevels.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazineBillingList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazines.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesBilling.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmRandomBarcodeGenerator.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmReport.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesPayment.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmClassSection.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeDepartment.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeDesignations.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmFeeTypes.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelersStudent.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelerStudentList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelFeePaymentList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelFeesPayment.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelInstallment.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmLocationEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmLogin.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmLogs.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmMainmenu.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesPaymentList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSectionEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmClassTypes.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolType.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSessionEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSms.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSplash.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStaffDiscount.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudent_Result.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentAttendance.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentClassPromotion.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentDiscount.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentDocuments.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentRegistration.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksSubCategory.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookSupplierList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamResultList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSubjectList.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSubjectsEntry.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmUserGrants.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmUserRegistrations.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmWebCam.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.Properties.Resources.resources
+C:\02.10.2016\School Software\School Software\obj\x86\Debug\School Software.csproj.GenerateResource.Cache
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\School Software.exe.config
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School Software.exe
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School Software.pdb
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\School Software.exe
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\School Software.pdb
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\BarcodeLib.dll
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\GenCode128.dll
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\WebCam_Capture.dll
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\webs.dll
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\BarcodeLib.pdb
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\GenCode128.pdb
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\webs.pdb
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\bin\Debug\webs.xml
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School Software.csprojResolveAssemblyReference.cache
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmAttendanceList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBarcodeGeneration.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssue.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStaff.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueReportStudent.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueStaffReport.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookReservations.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookReturn.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookReturnListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksCategory.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksClassifications.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksFineSetting.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationReport.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationsList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReturnListStaff.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookSuppliersEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAdvancePayment.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAdvancePaymentList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAttendanceEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeePaymentListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeePaymentStaff.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeesPaymentListStaff.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusFeesPaymentStudent.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStaff.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStaffList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStudentList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusHolderStudents.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBusInstallments.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmClassEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeAttendanceRecords.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeSalaryPayment.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeSalaryPaymentList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamResultsEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamSchedule.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamScheduleList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmFeesDueList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmFinalMarksEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmFinalMarksList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmGradingLevels.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazineBillingList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazines.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesBilling.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmRandomBarcodeGenerator.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmReport.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesPayment.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmClassSection.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeDepartment.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeDesignations.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmFeeTypes.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelersStudent.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelerStudentList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelFeePaymentList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelFeesPayment.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmHostelInstallment.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmLocationEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmLogin.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmLogs.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmMainmenu.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolFeesPaymentList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSectionEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmClassTypes.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolType.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSessionEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSms.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSplash.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStaffDiscount.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudent_Result.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentAttendance.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentClassPromotion.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentDiscount.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentDocuments.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentRegistration.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksSubCategory.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBookSupplierList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmExamResultList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSubjectList.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmSubjectsEntry.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmUserGrants.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmUserRegistrations.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmWebCam.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.Properties.Resources.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School Software.csproj.GenerateResource.Cache
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmMarksLedger.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmBooksFineStudentReports.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStaffBooksFineReport.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentsIdentityCards.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStaffAdvanceEntryReport.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmStudentReport.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeReport.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.AboutBox.resources
+C:\Users\Vaibhav-PC\Desktop\02.10.2016\School Software\School Software\obj\x86\Debug\School_Software.frmContactMe.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\School Software.exe.config
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School Software.exe
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School Software.pdb
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School Software.csprojResolveAssemblyReference.cache
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.AboutBox.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBarcodeGeneration.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssue.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStaff.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueReportStudent.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookIssueStaffReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookReservations.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookReturn.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookReturnListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksCategory.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksClassifications.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksFineSetting.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksFineStudentReports.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationsList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksReturnListStaff.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookSuppliersEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmContactMe.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmEmployeeReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazineBillingList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazines.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesBilling.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmRandomBarcodeGenerator.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmMembersDepartment.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmMembersDesignations.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmMembersEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmMemberList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmLogin.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmLogs.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmMainmenu.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmSessionEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmSms.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmSplash.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmMemberBooksFineReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmStudentList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmStudentRegistration.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBooksSubCategory.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmBookSupplierList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmStudentReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmUserGrants.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmUserRegistrations.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmWebCam.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.Properties.Resources.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School Software.csproj.GenerateResource.Cache
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\School Software.exe
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\School Software.pdb
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\BarcodeLib.dll
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\GenCode128.dll
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\WebCam_Capture.dll
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\webs.dll
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\BarcodeLib.pdb
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\GenCode128.pdb
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\webs.pdb
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\bin\Debug\webs.xml
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmClassEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmClassSection.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmClassTypes.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmSchoolType.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\School Software\School Software\obj\x86\Debug\School_Software.frmSectionEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\bin\Debug\School Software.exe.config
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School Software.exe
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School Software.pdb
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\bin\Debug\Library PRO Software.exe.config

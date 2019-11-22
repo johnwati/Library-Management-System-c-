@@ -1,0 +1,95 @@
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\Library PRO Software.csprojResolveAssemblyReference.cache
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.AboutBox.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBarcodeGeneration.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookIssue.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookIssueListStaff.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookIssueReportStudent.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookIssueStaffReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookReservations.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookReturn.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookReturnListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksCategory.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksClassifications.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksFineSetting.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksFineStudentReports.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksReservationsList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksReturnListStaff.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookSuppliersEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmClassEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmClassSection.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmClassTypes.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmContactMe.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmEmployeeReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazineBillingList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazines.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesBilling.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmRandomBarcodeGenerator.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmMembersDepartment.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmMembersDesignations.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmMembersEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmMemberList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmLogin.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmLogs.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmMainmenu.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmSchoolEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmSchoolType.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmSectionEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmSessionEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmSms.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmSplash.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmMemberBooksFineReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmStudentList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmRegistration.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBooksSubCategory.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmBookSupplierList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmStudentReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmUserGrants.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmUserRegistrations.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.frmWebCam.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\School_Software.Properties.Resources.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\obj\x86\Debug\Library PRO Software.csproj.GenerateResource.Cache
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\School Software\bin\Debug\Library PRO Software.exe.config
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\bin\Debug\Library PRO Software.exe.config
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\Library PRO Software.csprojResolveAssemblyReference.cache
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.AboutBox.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBarcodeGeneration.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBookIssue.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBookIssueListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmMembersBookIssueList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBookReservations.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBookReturn.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBookReturnListStudent.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBooksClassifications.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBooksEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBooksFineSetting.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBooksFineStudentReports.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBooksList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBooksReturnListStaff.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBookSuppliersEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmContactMe.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmJournalAndMagazines.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmJournalAndMagazinesBilling.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmRandomBarcodeGenerator.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmMembersEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmMemberList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmLogin.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmLogs.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmMainmenu.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmSessionEntry.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmSplash.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmMemberBooksFineReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBooksSubCategory.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmBookSupplierList.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmRegistration.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmStudentReport.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmUserGrants.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmUserRegistrations.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\School_Software.frmWebCam.resources
+C:\Users\Vaibhav-PC\Desktop\Vaibhav Library Software\Library PRO Software\Library PRO Software\obj\x86\Debug\Library PRO Software.csproj.GenerateResource.Cache

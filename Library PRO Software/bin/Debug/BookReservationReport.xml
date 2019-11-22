@@ -1,0 +1,2613 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ERP_DBDataSet" targetNamespace="http://tempuri.org/ERP_DBDataSet.xsd" xmlns:mstns="http://tempuri.org/ERP_DBDataSet.xsd" xmlns="http://tempuri.org/ERP_DBDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ERP_DBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AdvanceEntry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AdvanceID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Deduction" type="xs:decimal" minOccurs="0" />
+              <xs:element name="WorkingDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Attendance">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Attendance_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Admission_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AttendanceMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AttendanceID" type="xs:int" />
+              <xs:element name="AttendanceDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+              <xs:element name="SubjectID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Book">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AccessionNo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BookTitle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EntryDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Author" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JointAuthors" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubCategoryID" type="xs:int" minOccurs="0" />
+              <xs:element name="Barcode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ISBN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Volume" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Edition" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Publisher" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PlaceOfPublisher" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PublishingYear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Section" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Language" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Price" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SupplierID" type="xs:int" minOccurs="0" />
+              <xs:element name="BillNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BillDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Condition" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoOfPages" type="xs:int" minOccurs="0" />
+              <xs:element name="BookPosition" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BarcodeImage" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Book_RI">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IssueID" type="xs:int" />
+              <xs:element name="ReservationID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BookIssue_Staff">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="IssueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AccessionNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BookIssue_Student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="IssueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AccessionNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AdmissionNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BookReservation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="AccessionNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+              <xs:element name="R_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BooksCategory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CategoryID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="CategoryName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Classification" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BooksSubCategory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubCategoryID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="SubCategoryName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Category_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Bus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BusID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="BusNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DriverName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContactNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupporterName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Scontactno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BusFeesPayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BFP_ID" type="xs:int" />
+              <xs:element name="MaxID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Session" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Installment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalFee" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiscountPer" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiscountAmt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PreviousDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Fine" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GrandTotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalPaid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ModeOfPayment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentModeDetails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PaymentDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BusHolder_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Location" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="School" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Class" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Section" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BusInstallment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InstallmentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Installment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Location_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Class">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClassID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="ClassName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClassType_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Classifications">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Classification">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClassSection">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClassSectionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Class_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Section_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClassTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClassTypeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="ClassType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CourseFeePayment_Join">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="FeeId" type="xs:int" minOccurs="0" />
+              <xs:element name="Fee" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Month" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SF_PaymentID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Department">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DepartmentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="DepartmentName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Designations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DesignationID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Designation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Doc">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DocID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Document_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Admission_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DocumentMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DocumentName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Employee">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMPID" type="xs:int" />
+              <xs:element name="EMPMAXID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmployeeName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gender" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FatherName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MotherName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContactNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateOfJoining" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Country" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Department_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Designation_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Salary" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Religion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BloodGroup" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Photo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Discount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SchoolID" type="xs:int" minOccurs="0" />
+              <xs:element name="AccountName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Bank" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Branch" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IFSCcode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EmployeePayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmpPaymentID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BasicSalary" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalPaid" type="xs:int" minOccurs="0" />
+              <xs:element name="Deduction" type="xs:int" minOccurs="0" />
+              <xs:element name="DuePayment" type="xs:int" minOccurs="0" />
+              <xs:element name="PaymentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ModeOfpayment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentModeDetails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateFrom" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateTo" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Event">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="EventName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StartingDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StartingTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EndingDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EndingTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ManagedBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Activities" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExamMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExamID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="ExamName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExamType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExamSchedule">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ScheduleID" type="xs:int" />
+              <xs:element name="ExamID" type="xs:int" minOccurs="0" />
+              <xs:element name="School_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Session_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="ClassSection_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Fee">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Feename" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Grades">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GradeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Grade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MinScore" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Remark" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hostel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HostelID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Hostelname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mobile" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Incharge" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hosteler">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HostelerID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Admission_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Hostel_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="JoiningDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HostelFeesPayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HFP_ID" type="xs:int" />
+              <xs:element name="MaxID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Hosteler_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Session" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Installment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalFee" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiscountAmt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PreviousDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Fine" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GrandTotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalPaid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ModeOfPayment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentModeDetails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Paymentdate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PaymentDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="School" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Class" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Section" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DiscountPer" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Hostel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HostelInstallment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IHID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Installment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Hostel_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Class_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="School_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="JM">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubNo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubscriptionDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Subscription" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubscriptionDateFrom" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SubscriptionDateTo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SupplierID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="JMB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JMBID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Sub_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BillNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BillDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaidON" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IssueNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Month" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Year" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Locations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LocationID" type="xs:int" />
+              <xs:element name="Location" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Logs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="UserID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" type="xs:dateTime" />
+              <xs:element name="Operation">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Result">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ResultID" type="xs:int" />
+              <xs:element name="ScheduleID" type="xs:int" minOccurs="0" />
+              <xs:element name="SubjectID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Resulting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Result_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="AdmissionNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Marks" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Absent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Return_Staff">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="IssueID" type="xs:int" minOccurs="0" />
+              <xs:element name="ReturnDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Fine" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Return_Student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReturnID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="IssueID" type="xs:int" minOccurs="0" />
+              <xs:element name="ReturnDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Fine" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Scheduling">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="ExamDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MaxMarks" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MinMarks" type="xs:decimal" minOccurs="0" />
+              <xs:element name="StartTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EndTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Subject_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Schedule_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Scholarship">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ScholarshipID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="ScholarshipName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ScholarShipPayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ScholarshipPaymentID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ScholarshipID" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" type="xs:int" minOccurs="0" />
+              <xs:element name="AdmissionNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentMode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentModeDetails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalPaid" type="xs:int" minOccurs="0" />
+              <xs:element name="DuePayment" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="School">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SchoolID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="SchoolName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContactNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fax" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Website" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Country" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Photo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Category_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SchoolFees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SchoolFeeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Class_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="FeeID" type="xs:int" minOccurs="0" />
+              <xs:element name="Fee" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Month" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="School_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SchoolFeesPayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SFP_ID" type="xs:int" />
+              <xs:element name="MaxID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Admission_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Session" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalFee" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiscountPer" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiscountAmt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PreviousDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Fine" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GrandTotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalPaid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ModeOfPayment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentModeDetails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PaymentDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="School" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Class" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Section" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SchoolTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CategoryID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="SchoolType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Section">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SectionName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SectionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Sessions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SessionID" type="xs:int" />
+              <xs:element name="Session" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Setting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BookType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaxDays_Staff" type="xs:int" minOccurs="0" />
+              <xs:element name="MaxDays_Student" type="xs:int" minOccurs="0" />
+              <xs:element name="FinePerDay_Student" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FinePerDay_Staff" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MaxBooks_Staff" type="xs:int" minOccurs="0" />
+              <xs:element name="MaxBooks_Student" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SMSSetting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="APIURL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsDefault" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsEnabled" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaffAttendance">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="WorkingDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OutTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaffBusFeesPayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FP_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaxID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffBusHolder_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Session" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Installment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalFee" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiscountPer" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiscountAmt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PreviousDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Fine" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GrandTotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalPaid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ModeOfPayment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentModeDetails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PaymentDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Location" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaffBusHolder">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StaffBusHolderID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+              <xs:element name="Bus_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Location_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="JoiningDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Staffdiscount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Staff_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Discount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaffPayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" type="xs:int" />
+              <xs:element name="PaymentID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateFrom" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateTo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+              <xs:element name="PresentDays" type="xs:int" minOccurs="0" />
+              <xs:element name="Salary" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Advance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Deduction" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaymentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ModeOfPayment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentModeDetails" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NetPay" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AdmissionNo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EnrollmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StudentName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FatherName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FatherOcc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MotherName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MotherOcc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParentContact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PermanentAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TemporaryAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContactNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gender" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AdmissionDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Category" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Religion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Photo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nationality" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClassSection_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="School_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="LastSchool" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LastClass" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PassingYr" type="xs:int" minOccurs="0" />
+              <xs:element name="percents" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Board" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BloodGroup" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Height" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Weight" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GuardianName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GuardianContact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Session_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Result" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HomeContact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Bus" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Class" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Hostel" type="xs:decimal" minOccurs="0" />
+              <xs:element name="City" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Country" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StudentBusHolder">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BusHolderID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Admission_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Bus_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Location_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="JoiningDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StudentDiscount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StudentDisID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Admission_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Feetype" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Discount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Subject">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubjectID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="SubjectCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubjectName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SessionID" type="xs:int" minOccurs="0" />
+              <xs:element name="SchoolID" type="xs:int" minOccurs="0" />
+              <xs:element name="ClassID" type="xs:int" minOccurs="0" />
+              <xs:element name="SubjectType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaxClasses" type="xs:int" minOccurs="0" />
+              <xs:element name="TimeFrom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TimeTo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Supplier">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SupplierID" type="xs:int" />
+              <xs:element name="SupplierMax">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContactNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmailID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="120" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="S_Books" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="S_Newspaper" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="S_Magazines" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Transportation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RouteID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="SourceLocation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusCharges" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserGrants">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="Forms" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ViewRecord" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Saves" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Updates" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Deletes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Getdata" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Users">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="UserID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Password">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContactNo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JoiningDate" type="xs:dateTime" />
+              <xs:element name="Designation_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Column1" type="xs:string" minOccurs="0" />
+              <xs:element name="Column2" type="xs:string" minOccurs="0" />
+              <xs:element name="Column3" type="xs:string" minOccurs="0" />
+              <xs:element name="Column4" type="xs:string" minOccurs="0" />
+              <xs:element name="Column5" type="xs:string" minOccurs="0" />
+              <xs:element name="Column6" type="xs:string" minOccurs="0" />
+              <xs:element name="Column7" type="xs:string" minOccurs="0" />
+              <xs:element name="Column8" type="xs:string" minOccurs="0" />
+              <xs:element name="R_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Column9" type="xs:string" minOccurs="0" />
+              <xs:element name="Column10" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AdvanceEntry" />
+      <xs:field xpath="mstns:AdvanceID" />
+    </xs:unique>
+    <xs:unique name="Attendance_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Attendance" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="AttendanceMaster_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AttendanceMaster" />
+      <xs:field xpath="mstns:AttendanceID" />
+    </xs:unique>
+    <xs:unique name="Book_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Book" />
+      <xs:field xpath="mstns:AccessionNo" />
+    </xs:unique>
+    <xs:unique name="Book_RI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Book_RI" />
+      <xs:field xpath="mstns:IssueID" />
+    </xs:unique>
+    <xs:unique name="BookIssue_Staff_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BookIssue_Staff" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="BookIssue_Student_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BookIssue_Student" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="BookReservation_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BookReservation" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="BooksCategory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BooksCategory" />
+      <xs:field xpath="mstns:CategoryID" />
+    </xs:unique>
+    <xs:unique name="BooksSubCategory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BooksSubCategory" />
+      <xs:field xpath="mstns:SubCategoryID" />
+    </xs:unique>
+    <xs:unique name="Bus_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Bus" />
+      <xs:field xpath="mstns:BusID" />
+    </xs:unique>
+    <xs:unique name="BusFeesPayment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BusFeesPayment" />
+      <xs:field xpath="mstns:BFP_ID" />
+    </xs:unique>
+    <xs:unique name="BusInstallment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BusInstallment" />
+      <xs:field xpath="mstns:InstallmentID" />
+    </xs:unique>
+    <xs:unique name="Class_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Class" />
+      <xs:field xpath="mstns:ClassID" />
+    </xs:unique>
+    <xs:unique name="Classifications_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Classifications" />
+      <xs:field xpath="mstns:Classification" />
+    </xs:unique>
+    <xs:unique name="ClassSection_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ClassSection" />
+      <xs:field xpath="mstns:ClassSectionID" />
+    </xs:unique>
+    <xs:unique name="ClassTypes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ClassTypes" />
+      <xs:field xpath="mstns:ClassTypeID" />
+    </xs:unique>
+    <xs:unique name="CourseFeePayment_Join_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CourseFeePayment_Join" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="Department_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Department" />
+      <xs:field xpath="mstns:DepartmentID" />
+    </xs:unique>
+    <xs:unique name="Designations_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Designations" />
+      <xs:field xpath="mstns:DesignationID" />
+    </xs:unique>
+    <xs:unique name="Doc_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Doc" />
+      <xs:field xpath="mstns:DocID" />
+    </xs:unique>
+    <xs:unique name="DocumentMaster_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DocumentMaster" />
+      <xs:field xpath="mstns:DocumentName" />
+    </xs:unique>
+    <xs:unique name="Employee_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Employee" />
+      <xs:field xpath="mstns:EMPID" />
+    </xs:unique>
+    <xs:unique name="EmployeePayment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EmployeePayment" />
+      <xs:field xpath="mstns:EmpPaymentID" />
+    </xs:unique>
+    <xs:unique name="Event_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Event" />
+      <xs:field xpath="mstns:EventID" />
+    </xs:unique>
+    <xs:unique name="ExamMaster_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ExamMaster" />
+      <xs:field xpath="mstns:ExamID" />
+    </xs:unique>
+    <xs:unique name="ExamSchedule_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ExamSchedule" />
+      <xs:field xpath="mstns:ScheduleID" />
+    </xs:unique>
+    <xs:unique name="Fee_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Fee" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Grades_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Grades" />
+      <xs:field xpath="mstns:GradeID" />
+    </xs:unique>
+    <xs:unique name="Hostel_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Hostel" />
+      <xs:field xpath="mstns:HostelID" />
+    </xs:unique>
+    <xs:unique name="Hosteler_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Hosteler" />
+      <xs:field xpath="mstns:HostelerID" />
+    </xs:unique>
+    <xs:unique name="HostelFeesPayment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HostelFeesPayment" />
+      <xs:field xpath="mstns:HFP_ID" />
+    </xs:unique>
+    <xs:unique name="HostelInstallment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HostelInstallment" />
+      <xs:field xpath="mstns:IHID" />
+    </xs:unique>
+    <xs:unique name="JM_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:JM" />
+      <xs:field xpath="mstns:SubNo" />
+    </xs:unique>
+    <xs:unique name="JMB_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:JMB" />
+      <xs:field xpath="mstns:JMBID" />
+    </xs:unique>
+    <xs:unique name="Locations_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Locations" />
+      <xs:field xpath="mstns:LocationID" />
+    </xs:unique>
+    <xs:unique name="Logs_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Logs" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Result_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Result" />
+      <xs:field xpath="mstns:ResultID" />
+    </xs:unique>
+    <xs:unique name="Resulting_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Resulting" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Return_Staff_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Return_Staff" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Return_Student_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Return_Student" />
+      <xs:field xpath="mstns:ReturnID" />
+    </xs:unique>
+    <xs:unique name="Scheduling_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Scheduling" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Scholarship_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Scholarship" />
+      <xs:field xpath="mstns:ScholarshipID" />
+    </xs:unique>
+    <xs:unique name="ScholarShipPayment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ScholarShipPayment" />
+      <xs:field xpath="mstns:ScholarshipPaymentID" />
+    </xs:unique>
+    <xs:unique name="School_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:School" />
+      <xs:field xpath="mstns:SchoolID" />
+    </xs:unique>
+    <xs:unique name="SchoolFees_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SchoolFees" />
+      <xs:field xpath="mstns:SchoolFeeID" />
+    </xs:unique>
+    <xs:unique name="SchoolFeesPayment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SchoolFeesPayment" />
+      <xs:field xpath="mstns:SFP_ID" />
+    </xs:unique>
+    <xs:unique name="SchoolTypes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SchoolTypes" />
+      <xs:field xpath="mstns:CategoryID" />
+    </xs:unique>
+    <xs:unique name="Section_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Section" />
+      <xs:field xpath="mstns:SectionID" />
+    </xs:unique>
+    <xs:unique name="Sessions_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Sessions" />
+      <xs:field xpath="mstns:SessionID" />
+    </xs:unique>
+    <xs:unique name="Setting_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Setting" />
+      <xs:field xpath="mstns:BookType" />
+    </xs:unique>
+    <xs:unique name="SMSSetting_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SMSSetting" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="StaffAttendance_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StaffAttendance" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="StaffBusFeesPayment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StaffBusFeesPayment" />
+      <xs:field xpath="mstns:FP_ID" />
+    </xs:unique>
+    <xs:unique name="StaffBusHolder_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StaffBusHolder" />
+      <xs:field xpath="mstns:StaffBusHolderID" />
+    </xs:unique>
+    <xs:unique name="Staffdiscount_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Staffdiscount" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="StaffPayment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StaffPayment" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Student_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Student" />
+      <xs:field xpath="mstns:AdmissionNo" />
+    </xs:unique>
+    <xs:unique name="StudentBusHolder_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StudentBusHolder" />
+      <xs:field xpath="mstns:BusHolderID" />
+    </xs:unique>
+    <xs:unique name="StudentDiscount_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StudentDiscount" />
+      <xs:field xpath="mstns:StudentDisID" />
+    </xs:unique>
+    <xs:unique name="Subject_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Subject" />
+      <xs:field xpath="mstns:SubjectID" />
+    </xs:unique>
+    <xs:unique name="Supplier_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Supplier" />
+      <xs:field xpath="mstns:SupplierID" />
+    </xs:unique>
+    <xs:unique name="Transportation_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Transportation" />
+      <xs:field xpath="mstns:RouteID" />
+    </xs:unique>
+    <xs:unique name="UserGrants_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UserGrants" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="Users_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Users" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_AdvanceEntry_Employee" msdata:parent="Employee" msdata:child="AdvanceEntry" msdata:parentkey="EMPID" msdata:childkey="StaffID" />
+      <msdata:Relationship name="FK_Attendance_AttendanceMaster" msdata:parent="AttendanceMaster" msdata:child="Attendance" msdata:parentkey="AttendanceID" msdata:childkey="Attendance_ID" />
+      <msdata:Relationship name="FK_AttendanceMaster_Employee" msdata:parent="Employee" msdata:child="AttendanceMaster" msdata:parentkey="EMPID" msdata:childkey="StaffID" />
+      <msdata:Relationship name="FK_AttendanceMaster_Subject" msdata:parent="Subject" msdata:child="AttendanceMaster" msdata:parentkey="SubjectID" msdata:childkey="SubjectID" />
+      <msdata:Relationship name="FK_Book_BooksSubCategory" msdata:parent="BooksSubCategory" msdata:child="Book" msdata:parentkey="SubCategoryID" msdata:childkey="SubCategoryID" />
+      <msdata:Relationship name="FK_Book_Supplier" msdata:parent="Supplier" msdata:child="Book" msdata:parentkey="SupplierID" msdata:childkey="SupplierID" />
+      <msdata:Relationship name="FK_BookIssue_Staff_Employee" msdata:parent="Employee" msdata:child="BookIssue_Staff" msdata:parentkey="EMPID" msdata:childkey="StaffID" />
+      <msdata:Relationship name="FK_BookIssue_Student_Book" msdata:parent="Book" msdata:child="BookIssue_Student" msdata:parentkey="AccessionNo" msdata:childkey="AccessionNo" />
+      <msdata:Relationship name="FK_BookIssue_Student_Student" msdata:parent="Student" msdata:child="BookIssue_Student" msdata:parentkey="AdmissionNo" msdata:childkey="AdmissionNo" />
+      <msdata:Relationship name="FK_BookReservation_Book" msdata:parent="Book" msdata:child="BookReservation" msdata:parentkey="AccessionNo" msdata:childkey="AccessionNo" />
+      <msdata:Relationship name="FK_BookReservation_Employee" msdata:parent="Employee" msdata:child="BookReservation" msdata:parentkey="EMPID" msdata:childkey="StaffID" />
+      <msdata:Relationship name="FK_BooksCategory_Classifications" msdata:parent="Classifications" msdata:child="BooksCategory" msdata:parentkey="Classification" msdata:childkey="Classification" />
+      <msdata:Relationship name="FK_SubCategory_Category" msdata:parent="BooksCategory" msdata:child="BooksSubCategory" msdata:parentkey="CategoryID" msdata:childkey="Category_ID" />
+      <msdata:Relationship name="FK_BusFeesPayment_StudentBusHolder" msdata:parent="StudentBusHolder" msdata:child="BusFeesPayment" msdata:parentkey="BusHolderID" msdata:childkey="BusHolder_ID" />
+      <msdata:Relationship name="FK_BusInstallment_Locations" msdata:parent="Locations" msdata:child="BusInstallment" msdata:parentkey="LocationID" msdata:childkey="Location_ID" />
+      <msdata:Relationship name="FK_Class_ClassTypes" msdata:parent="ClassTypes" msdata:child="Class" msdata:parentkey="ClassTypeID" msdata:childkey="ClassType_ID" />
+      <msdata:Relationship name="FK_ClassSection_Class" msdata:parent="Class" msdata:child="ClassSection" msdata:parentkey="ClassID" msdata:childkey="Class_ID" />
+      <msdata:Relationship name="FK_ClassSection_Section" msdata:parent="Section" msdata:child="ClassSection" msdata:parentkey="SectionID" msdata:childkey="Section_ID" />
+      <msdata:Relationship name="FK_CourseFeePayment_Join_Fee" msdata:parent="Fee" msdata:child="CourseFeePayment_Join" msdata:parentkey="Id" msdata:childkey="FeeId" />
+      <msdata:Relationship name="FK_CourseFeePayment_Join_SchoolFeesPayment" msdata:parent="SchoolFeesPayment" msdata:child="CourseFeePayment_Join" msdata:parentkey="SFP_ID" msdata:childkey="SF_PaymentID" />
+      <msdata:Relationship name="FK_Doc_DocumentMaster" msdata:parent="DocumentMaster" msdata:child="Doc" msdata:parentkey="DocumentName" msdata:childkey="Document_Name" />
+      <msdata:Relationship name="FK_Doc_Student" msdata:parent="Student" msdata:child="Doc" msdata:parentkey="AdmissionNo" msdata:childkey="Admission_No" />
+      <msdata:Relationship name="FK_Employee_Department1" msdata:parent="Department" msdata:child="Employee" msdata:parentkey="DepartmentID" msdata:childkey="Department_ID" />
+      <msdata:Relationship name="FK_Employee_Designations" msdata:parent="Designations" msdata:child="Employee" msdata:parentkey="DesignationID" msdata:childkey="Designation_ID" />
+      <msdata:Relationship name="FK_ExamSchedule_ClassSection" msdata:parent="ClassSection" msdata:child="ExamSchedule" msdata:parentkey="ClassSectionID" msdata:childkey="ClassSection_ID" />
+      <msdata:Relationship name="FK_ExamSchedule_ExamMaster" msdata:parent="ExamMaster" msdata:child="ExamSchedule" msdata:parentkey="ExamID" msdata:childkey="ExamID" />
+      <msdata:Relationship name="FK_ExamSchedule_School" msdata:parent="School" msdata:child="ExamSchedule" msdata:parentkey="SchoolID" msdata:childkey="School_ID" />
+      <msdata:Relationship name="FK_ExamSchedule_Sessions" msdata:parent="Sessions" msdata:child="ExamSchedule" msdata:parentkey="SessionID" msdata:childkey="Session_ID" />
+      <msdata:Relationship name="FK_Hosteler_Hostel" msdata:parent="Hostel" msdata:child="Hosteler" msdata:parentkey="HostelID" msdata:childkey="Hostel_ID" />
+      <msdata:Relationship name="FK_Hosteler_Student" msdata:parent="Student" msdata:child="Hosteler" msdata:parentkey="AdmissionNo" msdata:childkey="Admission_No" />
+      <msdata:Relationship name="FK_HostelFeesPayment_Hosteler" msdata:parent="Hosteler" msdata:child="HostelFeesPayment" msdata:parentkey="HostelerID" msdata:childkey="Hosteler_ID" />
+      <msdata:Relationship name="FK_HostelInstallment_Class" msdata:parent="Class" msdata:child="HostelInstallment" msdata:parentkey="ClassID" msdata:childkey="Class_ID" />
+      <msdata:Relationship name="FK_HostelInstallment_Hostel" msdata:parent="Hostel" msdata:child="HostelInstallment" msdata:parentkey="HostelID" msdata:childkey="Hostel_ID" />
+      <msdata:Relationship name="FK_HostelInstallment_School" msdata:parent="School" msdata:child="HostelInstallment" msdata:parentkey="SchoolID" msdata:childkey="School_ID" />
+      <msdata:Relationship name="FK_JM_Supplier" msdata:parent="Supplier" msdata:child="JM" msdata:parentkey="SupplierID" msdata:childkey="SupplierID" />
+      <msdata:Relationship name="FK_JMB_JM" msdata:parent="JM" msdata:child="JMB" msdata:parentkey="SubNo" msdata:childkey="Sub_No" />
+      <msdata:Relationship name="FK_Result_Subject" msdata:parent="Subject" msdata:child="Result" msdata:parentkey="SubjectID" msdata:childkey="SubjectID" />
+      <msdata:Relationship name="FK_Resulting_Result" msdata:parent="Result" msdata:child="Resulting" msdata:parentkey="ResultID" msdata:childkey="Result_ID" />
+      <msdata:Relationship name="FK_Return_Staff_BookIssue_Staff" msdata:parent="BookIssue_Staff" msdata:child="Return_Staff" msdata:parentkey="ID" msdata:childkey="IssueID" />
+      <msdata:Relationship name="FK_Return_Student_BookIssue_Student" msdata:parent="BookIssue_Student" msdata:child="Return_Student" msdata:parentkey="ID" msdata:childkey="IssueID" />
+      <msdata:Relationship name="FK_Scheduling_Scheduling" msdata:parent="ExamSchedule" msdata:child="Scheduling" msdata:parentkey="ScheduleID" msdata:childkey="Schedule_ID" />
+      <msdata:Relationship name="FK_ScholarShipPayment_Scholarship" msdata:parent="Scholarship" msdata:child="ScholarShipPayment" msdata:parentkey="ScholarshipID" msdata:childkey="ScholarshipID" />
+      <msdata:Relationship name="FK_School_SchoolTypes" msdata:parent="SchoolTypes" msdata:child="School" msdata:parentkey="CategoryID" msdata:childkey="Category_ID" />
+      <msdata:Relationship name="FK_CourseFee_Class" msdata:parent="Class" msdata:child="SchoolFees" msdata:parentkey="ClassID" msdata:childkey="Class_ID" />
+      <msdata:Relationship name="FK_CourseFee_Fee" msdata:parent="Fee" msdata:child="SchoolFees" msdata:parentkey="Id" msdata:childkey="FeeID" />
+      <msdata:Relationship name="FK_SchoolFees_School" msdata:parent="School" msdata:child="SchoolFees" msdata:parentkey="SchoolID" msdata:childkey="School_ID" />
+      <msdata:Relationship name="FK_SchoolFeesPayment_Student" msdata:parent="Student" msdata:child="SchoolFeesPayment" msdata:parentkey="AdmissionNo" msdata:childkey="Admission_No" />
+      <msdata:Relationship name="FK_StaffAttendance_Employee" msdata:parent="Employee" msdata:child="StaffAttendance" msdata:parentkey="EMPID" msdata:childkey="StaffID" />
+      <msdata:Relationship name="FK_StaffBusFeesPayment_StaffBusHolder" msdata:parent="StaffBusHolder" msdata:child="StaffBusFeesPayment" msdata:parentkey="StaffBusHolderID" msdata:childkey="StaffBusHolder_ID" />
+      <msdata:Relationship name="FK_StaffBusHolder_Bus" msdata:parent="Bus" msdata:child="StaffBusHolder" msdata:parentkey="BusID" msdata:childkey="Bus_ID" />
+      <msdata:Relationship name="FK_StaffBusHolder_Employee" msdata:parent="Employee" msdata:child="StaffBusHolder" msdata:parentkey="EMPID" msdata:childkey="StaffID" />
+      <msdata:Relationship name="FK_StaffBusHolder_Locations" msdata:parent="Locations" msdata:child="StaffBusHolder" msdata:parentkey="LocationID" msdata:childkey="Location_ID" />
+      <msdata:Relationship name="FK_Staffdiscount_Employee" msdata:parent="Employee" msdata:child="Staffdiscount" msdata:parentkey="EMPID" msdata:childkey="Staff_ID" />
+      <msdata:Relationship name="FK_StaffPayment_Employee" msdata:parent="Employee" msdata:child="StaffPayment" msdata:parentkey="EMPID" msdata:childkey="StaffID" />
+      <msdata:Relationship name="FK_Student_ClassSection" msdata:parent="ClassSection" msdata:child="Student" msdata:parentkey="ClassSectionID" msdata:childkey="ClassSection_ID" />
+      <msdata:Relationship name="FK_Student_School" msdata:parent="School" msdata:child="Student" msdata:parentkey="SchoolID" msdata:childkey="School_ID" />
+      <msdata:Relationship name="FK_Student_Sessions" msdata:parent="Sessions" msdata:child="Student" msdata:parentkey="SessionID" msdata:childkey="Session_ID" />
+      <msdata:Relationship name="FK_StudentBusHolder_Bus" msdata:parent="Bus" msdata:child="StudentBusHolder" msdata:parentkey="BusID" msdata:childkey="Bus_ID" />
+      <msdata:Relationship name="FK_StudentBusHolder_Locations" msdata:parent="Locations" msdata:child="StudentBusHolder" msdata:parentkey="LocationID" msdata:childkey="Location_ID" />
+      <msdata:Relationship name="FK_StudentBusHolder_Student" msdata:parent="Student" msdata:child="StudentBusHolder" msdata:parentkey="AdmissionNo" msdata:childkey="Admission_No" />
+      <msdata:Relationship name="FK_StudentDiscount_Student" msdata:parent="Student" msdata:child="StudentDiscount" msdata:parentkey="AdmissionNo" msdata:childkey="Admission_No" />
+      <msdata:Relationship name="FK_Subject_Class" msdata:parent="Class" msdata:child="Subject" msdata:parentkey="ClassID" msdata:childkey="ClassID" />
+      <msdata:Relationship name="FK_Subject_School" msdata:parent="School" msdata:child="Subject" msdata:parentkey="SchoolID" msdata:childkey="SchoolID" />
+      <msdata:Relationship name="FK_Subject_Sessions" msdata:parent="Sessions" msdata:child="Subject" msdata:parentkey="SessionID" msdata:childkey="SessionID" />
+      <msdata:Relationship name="FK_UserGrants_Users" msdata:parent="Users" msdata:child="UserGrants" msdata:parentkey="ID" msdata:childkey="UserID" />
+      <msdata:Relationship name="FK_Users_Designations" msdata:parent="Designations" msdata:child="Users" msdata:parentkey="DesignationID" msdata:childkey="Designation_ID" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

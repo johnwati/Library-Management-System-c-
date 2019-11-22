@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" type="xs:int" minOccurs="0" />
+              <xs:element name="PaymentID" type="xs:string" minOccurs="0" />
+              <xs:element name="DateFrom" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateTo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+              <xs:element name="EMPMAXID" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Gender" type="xs:string" minOccurs="0" />
+              <xs:element name="DOB" type="xs:string" minOccurs="0" />
+              <xs:element name="FatherName" type="xs:string" minOccurs="0" />
+              <xs:element name="MotherName" type="xs:string" minOccurs="0" />
+              <xs:element name="ContactNo" type="xs:string" minOccurs="0" />
+              <xs:element name="PresentDays" type="xs:int" minOccurs="0" />
+              <xs:element name="Salary" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Advance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Deduction" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaymentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ModeOfPayment" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentModeDetails" type="xs:string" minOccurs="0" />
+              <xs:element name="NetPay" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DepartmentName" type="xs:string" minOccurs="0" />
+              <xs:element name="Designation" type="xs:string" minOccurs="0" />
+              <xs:element name="SchoolName" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Expr1" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="Website" type="xs:string" minOccurs="0" />
+              <xs:element name="City" type="xs:string" minOccurs="0" />
+              <xs:element name="Country" type="xs:string" minOccurs="0" />
+              <xs:element name="Photo" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
